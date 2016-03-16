@@ -1,0 +1,40 @@
+/**CSS Document
+ * Curso: HMTL5 - Pildoras Informáticas - API WEB STORAGE I
+ * Origin: Video48.html ==> Almacenando información
+ */
+
+#contenedor {
+    background: red;
+    margin: auto;
+    padding-top: 50px;
+    width: 60%;
+}
+
+#zona-formulario {
+    background: #000;
+    border: 1px solid #039;
+    display: inline-block;
+    left: 0;
+    margin: auto;
+    padding: 20px;
+    text-align: center;
+}
+
+#zona-datos {
+    background: #999;
+    border: 1px solid #F00;
+    display: inline-block;
+    margin: auto;
+    padding: 20px;
+    right: 0;
+    width: 300px;
+}
+
+#clave, #valor {
+    width: 180px;
+}
+
+#zona-datos div {
+    border-bottom: 3px solid #00F;
+    padding: 15px;
+}
