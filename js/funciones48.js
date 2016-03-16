@@ -12,8 +12,6 @@
 
 //1. Definición de Objetos y Variables
 var botonGrabar;
-var itemClave;
-var itemValor;
 var zonaDatos;
 
 
@@ -39,6 +37,9 @@ function itemMostrar(itemClave) {
 
 function itemNuevo() {
     'use strict';
+
+    var itemClave;
+    var itemValor;
 
 //OJO DEFINIMOS itemClave e itemValor como variables locales. Si las
 // definimos como variables generales, no funciona
